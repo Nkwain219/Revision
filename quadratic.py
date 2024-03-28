@@ -1,7 +1,7 @@
 def quadratic_solver(a, b, c):
     x = (b**2) - (4 * a * c)
     if x >= 0:
-        y = math.sqrt(x)
+        y = x**0.5
         result_1 = (-b + y) / (2 * a)
         result_2 = (-b - y) / (2 * a)
     else:
